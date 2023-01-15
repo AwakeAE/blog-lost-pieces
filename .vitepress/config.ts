@@ -7,7 +7,7 @@ export default async () => {
   await generatePaginationPages(pageSize)
 
   return defineConfigWithTheme<LoiaThemeConfig>({
-    title: "Lost Pieces - Locietta's Blog",
+    title: "Lost Pieces - Awake_AE's Blog",
     description: 'Just playing around.',
     markdown: {
       theme: { light: 'light-plus', dark: 'dark-plus' },
@@ -27,16 +27,16 @@ export default async () => {
     base: '/',
     head: [
       ['meta', { charset: 'utf-8' }],
-      ['meta', { name: 'keywords', content: "Locietta's Blog" }],
-      ['meta', { name: 'description', content: "Lost Pieces - Locietta's Blog" }],
-      ['meta', { name: 'author', content: 'Locietta' }],
+      ['meta', { name: 'keywords', content: "Awake_AE's Blog" }],
+      ['meta', { name: 'description', content: "Lost Pieces - Awake_AE's Blog" }],
+      ['meta', { name: 'author', content: 'Awake_AE' }],
       ['meta', { name: 'robots', content: 'all' }],
       ['link', { rel: 'icon', href: '/L_32x32.ico' }]
     ],
     themeConfig: {
       posts: await getPosts(),
       pageSize: pageSize,
-      website: 'https://github.com/Locietta/blog-lost-pieces',
+      website: 'https://github.com/AwakeAE/blog-lost-pieces-ae',
       logo: '/favicon.ico',
 
       nav: [
@@ -47,13 +47,13 @@ export default async () => {
         {
           text: 'External',
           items: [
-            { text: 'Github', link: 'https://github.com/Locietta' },
-            { text: 'Zhihu', link: 'https://www.zhihu.com/people/wang-ling-xin-94' }
+            { text: 'Github', link: 'https://github.com/AwakeAE' },
+            { text: 'Zhihu', link: 'https://www.zhihu.com/people/cheng-xia-yan-yu' }
           ]
         }
       ],
 
-      socialLinks: [{ icon: 'github', link: 'https://github.com/Locietta/blog-lost-pieces' }]
+      socialLinks: [{ icon: 'github', link: 'https://github.com/AwakeAE/blog-lost-pieces-ae' }]
     },
     srcExclude: ['README.md']
   })

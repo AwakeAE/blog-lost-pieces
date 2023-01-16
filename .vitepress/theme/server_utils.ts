@@ -47,6 +47,10 @@ title: ${i === 1 ? 'home' : 'page_' + i}
 sidebar: false
 disableComment: true
 ---
+# Welcome to Awake_AE's Blog!
+High there~ I am a student of SME of SUSTech.
+
+## My Blogs
 <script setup>
 import Page from "./.vitepress/theme/components/Page.vue";
 import { useData } from "vitepress";

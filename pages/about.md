@@ -1,8 +1,11 @@
 ---
 title: About
-description: About me test
+description: About me
 sidebar: false
 disableComment: true
 ---
-# about me
-coming soon...
+# About me
+Hi there~
+
+I am Chenchen Ding, a student of EECS in Southern University of Science and Technology.
+

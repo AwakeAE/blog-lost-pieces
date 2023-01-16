@@ -44,6 +44,7 @@ export default async () => {
         { text: 'Archives', link: '/pages/archives' },
         { text: 'Tags', link: '/pages/tags' },
         { text: 'About', link: '/pages/about' },
+        { text: 'Tests', link: '/pages/test' },
         {
           text: 'External',
           items: [

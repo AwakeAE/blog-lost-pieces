@@ -34,7 +34,7 @@ _斜体文字_ _italic_
 
 图片（SMMS 图床）：
 
-![跑了张AI图测试图床XD](https://s2.loli.net/2023/01/14/w9AWTZ8Gs5M4iek.png)
+![跑了张AI图测试图床XD](https://s2.loli.net/2023/01/16/1WBNlYXasSkOUA2.png)
 
 > 跑了张 AI 图用来测试，欸嘿
 
